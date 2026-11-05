@@ -1,7 +1,7 @@
 // Service Worker：网络优先（保证拿到最新版本），离线时用缓存
 // 修改前端文件后把 VERSION 加 1，已安装的 PWA 会自动更新
 // 全部使用相对路径，部署在子目录（如 GitHub Pages 的 /repo/）也能用
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = `mingju-${VERSION}`;
 const ASSETS = [
   './',
